@@ -6,7 +6,7 @@ This useful application scrapes stories from a news outlet and displays them to 
 
 
 Demo
-News Web Scraper is deployed to Heroku. Please visit .
+News Web Scraper is deployed to Heroku. Please visit https://newswebscrapellwashburn.herokuapp.com/favicon.ico
 
 Installation
 To install the application follow the instructions below:
