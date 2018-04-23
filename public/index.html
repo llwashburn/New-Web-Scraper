@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>News Flash Web Scraper</title>
+    <style>
+        body{
+        background-color: white; 
+        }
+        a.navbar-brand{
+            margin-left: 30px;
+            
+        }
+        div.navbar-header{
+            background-color: #4b515d;
+        }
+       
+        div.jumbotron{
+            text-align: center;
+            margin-top: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
+            height: 400%;
+            
+        }
+        .btn {
+            background-color: 
+        }
+
+        
+
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Reddit.com</a>
+        </div>
+</nav>
+
+<div class="jumbotron">
+    <h3>News Update Webscraper</h3>
+    <p>Click the button to get the latest news updates</p>
+    <p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Scrape</a>
+    </p>
+</div>
+
+    <div class ="container">
+        
+    <table id="results">
+        <thead>
+            <tr>
+                <th id="title">Title</th>
+                <th id="link">Article Link</th>
+                <th><button class="btn" id="delete">Delete</button></th>
+                <th><button class="btn" id="save">Save Article</button></th>   
+            </tr>
+        </thead>
+        <tbody>
+                <!--results from database-->
+        </tbody>
+        </table>
+    </div>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
