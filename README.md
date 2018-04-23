@@ -1,25 +1,20 @@
 
 
-
-
 About
 
 This useful application scrapes stories from a news outlet and displays them to a custom html page. The user can view the news titles and click to read the article. The application will also allow users to save articles and/or delete them when finished reading. 
 
 
 Demo
-updatedreadme
-
-
 
 News Web Scraper is deployed to Heroku. Please visit https://newswebscrapellwashburn.herokuapp.com/favicon.ico
-master
+
 
 Installation
 To install the application follow the instructions below:
 
 
-updatedreadme
+
 
 git clone https://llwashburn.github.io/New-Web-Scraper/
 cd New-Web-Scraper
