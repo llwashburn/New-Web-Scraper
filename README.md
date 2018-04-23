@@ -9,9 +9,8 @@ This useful application scrapes stories from a news outlet and displays them to 
 Demo
 updatedreadme
 
-News Web Scraper is deployed to Heroku. 
-Please visit https://newswebscrapellwashburn.herokuapp.com/favicon.ico
-=======
+
+
 News Web Scraper is deployed to Heroku. Please visit https://newswebscrapellwashburn.herokuapp.com/favicon.ico
 master
 
@@ -23,9 +22,6 @@ updatedreadme
 
 git clone https://llwashburn.github.io/New-Web-Scraper/
 cd New-Web-Scraper
-=======
-git clone 
-cd 
 master
 npm install
 
