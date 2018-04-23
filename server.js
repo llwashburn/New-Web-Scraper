@@ -7,9 +7,10 @@ var mongojs = require("mongojs");
 // Require request and cheerio. This makes the scraping possible
 var request = require("request");
 var cheerio = require("cheerio");
-// var path = require("path");
-// var axios = require("axios");
-// var bodyParser = require("body-parser");
+var path = require("path");
+var axios = require("axios");
+var bodyParser = require("body-parser");
+var mongoose = require("mongoose");
 
 
 
@@ -18,6 +19,9 @@ var app = express();
 
 //set up static folder (public) for our web app
 app.use(express.static("public"));
+
+
+var PORT = process.env.PORT || 3000;
 
 
 // Database configuration
